@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js">
+        </script>
+        <title>Andre's Website</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <span>André George</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#about">About</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#skills">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#services">Services</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#contact">Contact</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                 <div class="link"><a href="#home">Home</a></div>
+                 <div class="link"><a href="#about">About</a></div>
+                 <div class="link"><a href="#skills">Skills</a></div>
+                 <div class="link"><a href="#services">Services</a></div>
+                 <div class="link"><a href="#contact">Contact</a></div>
+                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+        <section class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="700">
+                <img src="image/Andre.jpeg" alt="Picture of Andre">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                Hi, I'm <span>André</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span></span></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">A passionate Computer Science student with a keen interest in technology and problem-solving. I'm currently diving deep into software Development, and the world of Cyber Security plus I'm always looking for ways to challenge myself and grow in whatever I am doing.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/andré-george-81717b350" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/andre2004-code" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/AndrGeorge5" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/_itsyaboytini/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="1800">
+                   <a href="mailto:georgetinto4@gmail.com" target="_blank">
+                    <button id="emailButton">Email Me</button></a>
+                </div>
+           </div>
+        </section>
+
+        <!-- About section Start -->
+        <section class="about" id="about">
+            <div class="content">
+              <div class="title"><span>About Me</span></div>
+              <div class="about-details">
+                <div class="left">
+                    <img src="image/Andre.jpeg" alt="Picture of Andre">
+                </div>
+                <div class="right">
+                    <div class="topic">My Passion</div>
+                    <p>Currently taking the Harvard CS50 course, I have a strong foundation in Python and web design. I'm passionate about learning new technologies and applying them to real-world problems, whether it's building web applications, automating tasks, or exploring new tools. I thrive on continuous learning and innovation, always seeking opportunities to grow and improve. Let's Connect!
+                    </p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <a href="image/Andre_CV .pdf" download><button>Download CV</button></a>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </section>
+
+        <!-- Skills Section Start -->
+        <section class="skills" id="skills">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+                <div class="skills-details">
+                    <div class="text">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                            Skills Reflects Our Knowledge
+                        </div>
+                        <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">With skills in Python and web design, I focus on creating user-friendly, efficient solutions that make a real impact. Whether it's developing intuitive websites or automating tasks, I aim to simplify processes and enhance user experiences. As I continue learning through the Haravard CS50 course. I'm costantly expanding my knowledge to build even more effective solutions. Technology is always evolving, and I'm excited to grow with it.</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="box">
+                          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</HTML></div>
+                          <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">JavaScript</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">70%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Python</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section Start -->
+        <section class="services" id="services">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200" ><span>My Services</span></div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="topic">Web Design</div>
+                        <p>I design modern, responsive, and user-friendly websites tailored to your needs. From personal portfolios to business sites, I focus on performance, accessibility, and a seemless user experience.</p>
+                    </div> 
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="topic">Graphic Design</div>
+                        <p>I create clean, visually appealing designs that enhance brand identity. From logos to social media graphics, I focus on aesthetics, clarity, and impact.</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="topic">Python</div>
+                        <p>I use Python to automate tasks, analyze data, and build efficient solution. Whether it's scripting, web development, or problem-solving, I focus on writing clean and efficient code.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                            <i class="fas fa-tablet-alt"></i>
+                        </div>
+                        <div class="topic">App Development</div>
+                        <p>I develop user-friendly and efficient applications, focusing on functionality and smooth performance. Whether it's web or mobile apps, I priotize clean design and seemless user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section Start -->
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+                    <span>Contact Me</span>
+                </div>
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                   <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                        <a href="https://wa.me/254790406631" target="_blank"><button>Let's Chat</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section Start -->
+        <footer>
+            <div class="text">
+                <span>Created By <a href="https://github.com/andre2004-code">andre-2004</andre-2004></a>&#169; 2024 All Rights Reserved</span>
+            </div>
+        </footer>
+
+        
+        <script>AOS.init({offset:0});</script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
